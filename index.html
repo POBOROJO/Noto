@@ -6,12 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NOTO</title>
     <link rel="stylesheet" href="main.css" />
+    <style>
+        * {
+            outline: 2px solid hotpink;
+        }
+    </style>
 </head>
 
-<body>
-    <div class="main-grid font-['Rutan-Medium']">
-        <main class="grid grid-flow-col">
-            <section>
+<body class="min-h-screen grid">
+    <div class="main-grid min-h-full font-['Rutan-Medium']">
+        <main class="grid grid-flow-col grid-cols-12 min-h-full">
+            <section class="bg-black text-white col-span-3 min-h-full">
                 <header>some icon</header>
                 <main>
                     <ul>
@@ -23,7 +28,7 @@
                     </ul>
                 </main>
             </section>
-            <section>
+            <section class="col-span-4 min-h-full">
                 <header>
                     <input type="search" name="" id="">
                 </header>
@@ -40,7 +45,7 @@
                     </ul>
                 </main>
             </section>
-            <section>
+            <section class="col-span-5 min-h-full">
                 <header>
                     <ul>
                         <li>Font size</li>
