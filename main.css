@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: Rutan-Medium;
+    font-weight: 400;
+    src: url(assets\fonts\RutanTrial-Medium-uploaded-63b6277f84c07.otf);
+  }
+  @font-face {
+    font-family: Rutan-Bold;
+    font-weight: 500;
+    src: url(assets\fonts\RutanTrial-Bold-uploaded-63b6277c89d33.otf);
+  }
+}
