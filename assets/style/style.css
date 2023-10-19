@@ -1,3 +1,14 @@
+:root {
+    /* colors */
+    --clr-primary-900: hsl(0, 0%, 0%);
+    --clr-secondary-100: hsl(0, 0%, 100%);
+
+    /* font size */
+    --fs-900: 2rem;
+    --fs-600: 1.5rem;
+    --fs-400: 1rem;
+}
+
 * {
     outline: 2px solid hotpink;
     margin: 0;
