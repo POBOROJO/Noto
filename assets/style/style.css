@@ -3,11 +3,13 @@
     font-weight: 400;
     src: url(../fonts/RutanTrial-Regular-uploaded-63b62780047fd.otf);
 }
+
 @font-face {
     font-family: rutan;
     font-weight: 500;
     src: url(../fonts/RutanTrial-Medium-uploaded-63b6277f84c07.otf);
 }
+
 @font-face {
     font-family: rutan;
     font-weight: 600;
@@ -80,15 +82,24 @@ body {
     padding-inline: var(--padding-inline);
     border-inline: 3px solid var(--clr-primary-900);
     & header {
+        position: relative;
+        display: flex;
+        align-items: center;
         font-size: var(--fs-600);
         padding-block: 1rem;
+        & i {
+            position: absolute;
+        }
         & input {
             width: 100%;
+            font-family: var(--ff-base);
             font-size: var(--fs-600);
+            font-weight: var(--fw-500);
             outline: none;
             border: none;
             border-bottom: 2px solid var(--clr-primary-900);
             padding-block: 0.5rem;
+            padding-inline: 2rem 0;
         }
     }
 
