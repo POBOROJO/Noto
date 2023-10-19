@@ -71,6 +71,8 @@ body {
     color: white;
     background-color: black;
     height: 100%;
+    font-weight: 800;
+    padding: 1.8rem;
 }
 
 .main-grid main section:nth-child(2) {
@@ -118,4 +120,8 @@ body {
             list-style: none;
         }
     }
+}
+.notebook-list li{
+    padding: 1.6rem;
+    list-style: none;
 }
